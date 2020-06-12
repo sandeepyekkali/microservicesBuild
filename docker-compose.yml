@@ -6,7 +6,7 @@ services:
         ports: 
             - "8080:8080"
         volumes: 
-            - ""./haproxy:/usr/local/etc/haproxy"
+            - "./haproxy:/usr/local/etc/haproxy"
     
     server1:
         image: nodeapp
