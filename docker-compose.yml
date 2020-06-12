@@ -4,22 +4,22 @@ services:
     loadbalancer:
         image: haproxy
         ports: 
-            - '8080:8080'
+            - "8080:8080"
         volumes: 
-            - ./haproxy: /usr/local/etc/haproxy
+            - ""./haproxy:/usr/local/etc/haproxy"
     
     server1:
         image: nodeapp
         environment: 
-            - ID = 1010
+            - ID=1010
 
     server2:
         image: nodeapp
         environment: 
-            - ID = 2020
+            - ID=2020
 
     server3:
         image: nodeapp
         environment: 
-            - ID = 3030
+            - ID=3030
 
