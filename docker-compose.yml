@@ -11,15 +11,15 @@ services:
     server1:
         image: nodeapp
         environment: 
-            - ID = 1111
+            - ID = 1010
 
     server2:
         image: nodeapp
         environment: 
-            - ID = 2222
+            - ID = 2020
 
     server3:
         image: nodeapp
         environment: 
-            - ID = 3333
+            - ID = 3030
 
